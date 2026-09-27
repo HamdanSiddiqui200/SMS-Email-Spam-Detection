@@ -4,7 +4,12 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+import nltk
 
+# Download required NLTK tokenizers and stopwords
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 ps = PorterStemmer()
 
 
